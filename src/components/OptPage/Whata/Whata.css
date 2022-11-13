@@ -1,0 +1,84 @@
+.form-outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../images/homepage-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.option-title {
+  color: #ef4c42;
+  font-size: 60px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-field {
+  height: 40px;
+  width: 220px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.form-field::placeholder {
+  padding-left: 5px;
+  color: rgb(38, 38, 38);
+  font-weight: 600;
+}
+
+.form-group {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-submit-btn {
+  border-radius: 20px;
+  background-color: #ef4b42;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.form-submit-btn:hover {
+  scale: 1.1;
+}
+
+.serv-logo {
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.option-sup-info {
+  margin-top: 0;
+}
+
+.option-sup-info {
+  margin-top: -15px;
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}

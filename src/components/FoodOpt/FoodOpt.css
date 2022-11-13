@@ -2,34 +2,39 @@
   display: flex;
   flex-direction: column;
   width: 400px;
+  cursor: pointer;
   height: 250px;
   margin: 25px;
+  border-radius: 25px;
+  background-color: #ffd333;
   border: 2px solid black;
 }
 
 .food-opt:hover {
-  scale: 1.05;
+  scale: 1.03;
   cursor: pointer;
 }
 
+.food-logo {
+  color: #ef4b42;
+}
+
 .food-opt-info {
-  height: 100%;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.img-logo {
-  width: 200px;
-  border: 2px solid red;
-  margin-bottom: 0px;
-}
-
 .rest-title {
+  margin-top: 5px;
+  font-weight: 800;
   margin-top: 15px;
 }
 
 .rest-desc {
-  border: 2px solid gray;
   margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 80%;
 }

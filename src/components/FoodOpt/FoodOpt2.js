@@ -3,10 +3,10 @@ import "./FoodOpt.css";
 import { useNavigate } from "react-router-dom";
 import FastfoodIcon from "@mui/icons-material/Fastfood";
 
-function FoodOpt({ title, body, url }) {
+function FoodOpt2({ title, body }) {
   const navigate = useNavigate();
   const handleClick = () => {
-    window.location.replace(url);
+    navigate(`/menu/${title}`);
   };
 
   return (
@@ -20,4 +20,4 @@ function FoodOpt({ title, body, url }) {
   );
 }
 
-export default FoodOpt;
+export default FoodOpt2;
