@@ -11,25 +11,52 @@
   width: 100%;
   background-image: url("../../images/homepage-background.png");
   background-size: cover;
+  z-index: 0;
 }
 
 .landing-section-2 {
   height: 100vh;
   width: 100%;
-  background-image: url("../../images/homepage-background.png");
-  background-position-x: 80%;
-  background-position-y: 5%;
+  background-image: url("../../images/homepage_background_2.png");
+  background-position-x: 90%;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.pointing-gif {
+  z-index: 1;
+}
+
+.sitting-gif {
+  width: 550px;
+  position: absolute;
+  top: 135vh;
+  left: 55%;
+}
+
+.homeless-gif {
+  position: absolute;
+  width: 500px;
+  top: 235vh;
+  left: 10%;
 }
 
 .landing-section-3 {
   height: 100vh;
+  z-index: 0;
   width: 100%;
+  background-image: url("../../images/homepage_background_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .landing-section-4 {
   height: 100vh;
   width: 100%;
+  background-image: url("../../images/OUR_PARTNERS.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .landing-signin-btn {

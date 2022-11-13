@@ -10,9 +10,27 @@
   background-repeat: no-repeat;
 }
 
+.form-outer-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../images/yellow_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .option-title {
   color: #ef4c42;
   font-size: 60px;
+}
+
+.option-title-1 {
+  color: black;
+  font-size: 60px;
+  margin-bottom: 65px;
 }
 
 .form {
@@ -72,13 +90,20 @@
 }
 
 .option-sup-info {
-  margin-top: 0;
-}
-
-.option-sup-info {
   margin-top: -15px;
   color: black;
   font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+
+.option-sup-info-1 {
+  background-color: #ef4b42;
+  color: black;
+  margin-top: -10px;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 25px;
   font-size: 24px;
   text-align: center;
 }
