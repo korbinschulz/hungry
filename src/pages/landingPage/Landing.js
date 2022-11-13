@@ -1,12 +1,23 @@
 import React from "react";
 import "./Landing.css";
+import { useNavigate } from "react-router-dom";
 import pointing from "../../images/pointinggif-removebg-preview.gif";
+import sitting from "../../images/cellphonegirl.gif";
+import homeless from "../../images/hoeless-removebg-preview.png";
 
 function Landing() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/signup");
+  };
+
   return (
     <div className="landing">
       <div className="landing-section-1">
-        <button className="landing-signin-btn">SIGN IN</button>
+        <button onClick={handleClick} className="landing-signin-btn">
+          SIGN IN
+        </button>
         <div className="landing-content">
           <div className="landing-title-1">
             {" "}
@@ -22,7 +33,11 @@ function Landing() {
             different restaurants. What are you waiting for?
           </p>
           <div className="landing-btn-section">
-            <button id="button-1" className="landing-main-btn">
+            <button
+              onClick={handleClick}
+              id="button-1"
+              className="landing-main-btn"
+            >
               SIGN UP
             </button>
             <button className="landing-main-btn">
@@ -30,7 +45,7 @@ function Landing() {
             </button>
           </div>
 
-          <img src={pointing} alt="Pointing Gif" />
+          <img src={pointing} className="pointing-gif" alt="Pointing Gif" />
         </div>
       </div>
 
@@ -61,6 +76,7 @@ function Landing() {
           Save money without having to cut back on food.<br></br>Travel-
           explore- experience.
         </p>
+        <img src={sitting} className="sitting-gif" alt="Sitting Gif" />
       </div>
 
       <div className="landing-section-3">
@@ -69,9 +85,11 @@ function Landing() {
         </div>
         <div className="landing-about-3">
           <p className="landing-about-3-1">
-            (Research on homelessness and hunger here to show that we did our
-            research and are passionate about a social cause cuz thats what
-            statefarm loves to see)
+            In todays America, homelessness is an epidemic, especially among the
+            urban poor. One out of every 50 people are homeless. Thanks to our
+            partners United Mission Relief and Hearts for the Homeless, were
+            able to support food banks in the Dallas-Fort Worth area by donating
+            leftovers and canned goods.
           </p>
           <br></br>
           <p className="landing-about-3-2">
@@ -79,11 +97,10 @@ function Landing() {
             the homeless while you help feed yourself.
           </p>
         </div>
+        <img src={homeless} className="homeless-gif" alt="Helping Gif" />
       </div>
 
-      <div className="landing-section-4">
-        <h1 className="landing-title">Our Partners</h1>
-      </div>
+      <div className="landing-section-4"></div>
     </div>
   );
 }

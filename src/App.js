@@ -7,6 +7,7 @@ import Whata from "./components/OptPage/Whata/Whata";
 import Waffle from "./components/OptPage/Whata/Waffle";
 import Buffalo from "./components/OptPage/Whata/Buffalo";
 import Dennys from "./components/OptPage/Whata/Dennys";
+import SignUp from "./components/OptPage/Whata/SignUp";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/menu/Wafflehouse" element={<Waffle />} />
           <Route path="/menu/Buffalo-Wild-Wings" element={<Buffalo />} />
           <Route path="/menu/Dennys" element={<Dennys />} />
+          <Route path="/signup" element={<SignUp />} />
         </Routes>
       </Router>
     </div>

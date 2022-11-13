@@ -1,0 +1,33 @@
+.title-about {
+  text-align: center;
+  color: white;
+  background-color: rgb(255, 231, 98);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(247, 7, 7);
+  border-top-color: rgba(255, 231, 97, 0.862) 13px;
+  margin-right: 86px;
+  margin-left: 86px;
+  margin-top: 30px;
+}
+.Column1-About {
+  flex: 50%;
+}
+.all-page-BG {
+  background-image: url("https://cdn.discordapp.com/attachments/1041250353468948552/1041344138899112075/about_the_developers.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  flex: 100%;
+}
+.all-page-BG p {
+  width: 35%;
+  margin-right: 100px;
+  flex-direction: end;
+  float: right;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black crimson;
+  font-size: x-large;
+}
