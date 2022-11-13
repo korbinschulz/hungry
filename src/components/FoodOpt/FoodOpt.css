@@ -1,0 +1,35 @@
+.food-opt {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 250px;
+  margin: 25px;
+  border: 2px solid black;
+}
+
+.food-opt:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.food-opt-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-logo {
+  width: 200px;
+  border: 2px solid red;
+  margin-bottom: 0px;
+}
+
+.rest-title {
+  margin-top: 15px;
+}
+
+.rest-desc {
+  border: 2px solid gray;
+  margin-top: 10px;
+}
